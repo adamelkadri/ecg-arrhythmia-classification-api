@@ -7,10 +7,6 @@ arrhythmia categories using a **1D Convolutional Neural Network** built in
 **PyTorch**, then serves predictions through a **FastAPI** REST API packaged in
 **Docker**.
 
-> **Metrics below are real**, from a 30-epoch training run on the MIT-BIH
-> dataset (best model selected by validation macro-F1, evaluated on the held-out
-> test set). Reproduce with `python -m src.train` then `python -m src.evaluate`.
-
 ---
 
 ## Overview
