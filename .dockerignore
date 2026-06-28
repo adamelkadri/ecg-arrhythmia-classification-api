@@ -1,0 +1,17 @@
+# Keep the image small — don't copy these into the build context.
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.git/
+.gitignore
+.venv/
+venv/
+
+# Data and notebooks aren't needed to serve the API.
+data/
+notebooks/
+results/
+
+# Docs
+README.md
+*.md
