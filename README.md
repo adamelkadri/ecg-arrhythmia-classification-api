@@ -257,24 +257,6 @@ present in the image.
 
 ---
 
-## CV bullet points
-
-- Built an end-to-end ECG arrhythmia classifier in **PyTorch**, training a 1D
-  CNN (44k params) on the MIT-BIH dataset (~109k heartbeats, 5 classes) to
-  **93.8% test accuracy and 0.77 macro-F1**, explicitly handling 113× class
-  imbalance with inverse-frequency weighted loss to reach 74–93% recall on rare
-  arrhythmia classes.
-- Designed a clean, reproducible ML codebase (config-driven training, seeded
-  runs, best-checkpoint selection by validation macro-F1, per-class
-  precision/recall/F1 + confusion-matrix evaluation) with a **17-test pytest
-  suite and GitHub Actions CI**, separating notebook exploration from production
-  `src/` modules.
-- Deployed the trained model as a **FastAPI** REST service with Pydantic
-  validation and a `/predict` endpoint, **containerised with Docker** for
-  reproducible, portable inference.
-
----
-
 ## License
 
 MIT — see dataset terms on Kaggle for data usage.
