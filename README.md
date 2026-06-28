@@ -259,4 +259,4 @@ present in the image.
 
 ## License
 
-MIT — see dataset terms on Kaggle for data usage.
+MIT License
